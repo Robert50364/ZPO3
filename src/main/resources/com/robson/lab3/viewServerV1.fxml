@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.robson.lab3.ServerController">
+   <children>
+      <Label fx:id="labelMain" layoutX="5.0" layoutY="5.0" prefHeight="290.0" prefWidth="290.0" text="Label" />
+   </children>
+</Pane>

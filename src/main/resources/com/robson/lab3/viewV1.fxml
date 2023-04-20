@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.robson.lab3.ClientController">
+   <children>
+      <Button fx:id="btnSent" layoutX="50.0" layoutY="200.0" mnemonicParsing="false" onAction="#btnSendAction" prefHeight="50.0" prefWidth="200.0" text="Sent" />
+      <TextField fx:id="tfNick" layoutX="50.0" layoutY="65.0" prefHeight="30.0" prefWidth="200.0" />
+      <Label layoutX="50.0" layoutY="30.0" prefHeight="20.0" prefWidth="200.0" text="Nick:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="110.0" prefHeight="20.0" prefWidth="200.0" text="Odpowiedź:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfAnwser" layoutX="50.0" layoutY="145.0" prefHeight="30.0" prefWidth="200.0" />
+   </children>
+</Pane>
